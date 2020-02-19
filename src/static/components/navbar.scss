@@ -1,0 +1,84 @@
+
+
+.nav {
+
+display: flex;
+  position: fixed;
+  top: 0;
+  height: 80px;
+  width: 100%;
+  flex-direction: row;
+  
+  
+  
+  background-color: #EEE;
+  box-shadow: 
+    -2px -2px 8px 0 rgba(255,255,255,.8),
+    -2px -2px 12px 0 rgba(255,255,255,0.5),
+    inset 2px 2px 4px rgba(255,255,255,.1),
+    2px 2px 8px rgba(0,0,0,.15);
+    padding: 0 20px;
+    z-index: 10;
+    justify-content: space-around;
+
+}
+img.coin{
+   
+    max-width:3vw;
+    height:auto;
+    
+    
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+}
+
+.div{
+    
+    vertical-align: center;
+    margin: auto 1em;
+
+    
+}
+
+.butt{
+    vertical-align: center;
+    box-shadow: 
+    -2px -2px 8px 0 rgba(255,255,255,.8),
+    -2px -2px 12px 0 rgba(255,255,255,0.5),
+    inset 2px 2px 4px rgba(255,255,255,.1),
+    2px 2px 8px rgba(0,0,0,.15);
+    background-color: #EEE;
+    border-radius: .5em;
+    border-style: none;
+    font-size: 16px;
+    padding: 0.2em 1em;
+}
+.butt:hover{
+   
+  box-shadow: 
+    inset -2px -2px 8px 0 rgba(255,255,255,.8),
+    inset -2px -2px 12px 0 rgba(255,255,255,0.5),
+    inset 2px 2px 4px rgba(255,255,255,.1),
+    inset 2px 2px 8px rgba(0,0,0,.15);   
+}
+.butt:hover span {
+    display: inline-block;
+    transform: scale(0.98);
+}
+
+.wallet{
+
+    
+    justify-self: left;
+    
+}
+.walletContainer{
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+}

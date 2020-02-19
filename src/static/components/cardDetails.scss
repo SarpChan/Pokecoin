@@ -1,0 +1,249 @@
+div.siteContainer{
+    width: 80%;
+    height: 100%;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: .5em;
+   
+    box-shadow: 
+    -2px -2px 8px 0 rgba(255,255,255,.8),
+    -2px -2px 12px 0 rgba(255,255,255,0.5),
+    inset 2px 2px 4px rgba(255,255,255,.1),
+    2px 2px 8px rgba(0,0,0,.15);
+   
+}
+
+
+
+div.detailContainer{
+    
+    display: grid;
+    width: 60%;
+    height: 100%;
+    grid-template-areas: "cardDetails" 
+    "texte";
+     border-radius: .5em;
+     align-self: center;
+        
+}
+
+
+div.trainerText{
+    grid-area: trainerText;
+    justify-self: left;
+    align-self: left;
+    
+    padding-bottom: 2em;
+}
+
+div.cardDetails{
+    grid-area: cardDetails;
+    grid: initial;
+    display:grid;
+    grid-template-areas: "cardname pokedex " 
+    "hp weakness"
+    "type evolution"
+    "rarity artist";
+    column-gap: .5em;
+    
+    margin-top: 1em;
+    box-shadow: 
+    inset -2px -2px 8px 0 rgba(255,255,255,.8),
+    inset -2px -2px 12px 0 rgba(255,255,255,0.5),
+    inset 2px 2px 4px rgba(255,255,255,.1),
+    inset 2px 2px 8px rgba(0,0,0,.15);
+    justify-content: center;
+    border-radius: .5em;
+}
+
+div.energyDetails{
+    grid-area: cardDetails;
+    grid: initial;
+    display:grid;
+    grid-template-areas: "cardname . " 
+    ". ."
+    ". subtype"
+    "rarity artist";
+    column-gap: .5em;
+    box-shadow: 
+    inset -2px -2px 8px 0 rgba(255,255,255,.8),
+    inset -2px -2px 12px 0 rgba(255,255,255,0.5),
+    inset 2px 2px 4px rgba(255,255,255,.1),
+    inset 2px 2px 8px rgba(0,0,0,.15);
+    justify-content: center;
+    border-radius: .5em;
+    
+    
+    justify-content: center;
+}
+
+div.trainerDetails{
+    grid-area: cardDetails;
+    grid: initial;
+    display:grid;
+    grid-template-areas: ". cardname"
+    ". hp"
+    ". subtype"
+    "rarity artist";
+    column-gap: .5em;
+    box-shadow: 
+    inset -2px -2px 8px 0 rgba(255,255,255,.8),
+    inset -2px -2px 12px 0 rgba(255,255,255,0.5),
+    inset 2px 2px 4px rgba(255,255,255,.1),
+    inset 2px 2px 8px rgba(0,0,0,.15);
+    justify-content: center;
+    border-radius: .5em;
+    
+    justify-content: center;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-content: right;
+
+    
+
+    
+}
+.text{
+    justify-self: right;
+    align-self: right;
+}
+.texte{
+    margin: 1em 0 1em 0 ;
+    
+
+    justify-self: stretch;
+    
+    grid-area: texte;
+    
+    padding: 0em 1em 1em 1em;
+    box-shadow: 
+    inset -2px -2px 8px 0 rgba(255,255,255,.8),
+    inset -2px -2px 12px 0 rgba(255,255,255,0.5),
+    inset 2px 2px 4px rgba(255,255,255,.1),
+    inset 2px 2px 8px rgba(0,0,0,.15);
+    border-radius: .5em;
+}
+
+.evolves{
+    grid-area: evolution;
+}
+
+
+.weaknesses{
+    grid-area: weakness;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.types{
+    grid-area: type;
+    
+}
+
+.type{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.pokedex{
+    grid-area: pokedex;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cardname{
+    grid-area: cardname; 
+    
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.subtype{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.evolvesFrom{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.set{
+    grid-area: set;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.artist{
+    grid-area: artist;
+    display:flex;
+    flex-direction: row;
+    align-items: center;}
+.rarity{
+    grid-area: rarity;
+    display:flex;
+    flex-direction: row;
+    align-items: center;}
+.abilityName{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.attackName{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.attackText{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items:center;
+    
+}
+
+.hpContainer{
+    grid-area: hp;
+   
+}
+div.hp{
+display:flex;
+    flex-direction: row;
+    align-items: center; 
+}
+
+
+
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+p.detailTextBox{
+    margin-left: .2em;
+    border-radius: .5em;
+    padding: .5em;
+    box-shadow: 
+    inset -2px -2px 8px 0 rgba(255,255,255,.8),
+    inset -2px -2px 12px 0 rgba(255,255,255,0.5),
+    inset 2px 2px 4px rgba(255,255,255,.1),
+    inset 2px 2px 8px rgba(0,0,0,.15);   
+}
+

@@ -1,0 +1,80 @@
+div.pageContainer{
+   margin-top: 3em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    box-shadow: 
+    -2px -2px 8px 0 rgba(255,255,255,.8),
+    -2px -2px 12px 0 rgba(255,255,255,0.5),
+    inset 2px 2px 4px rgba(255,255,255,.1),
+    2px 2px 8px rgba(0,0,0,.15);
+}
+
+
+div.foundBlock{
+    margin: 1em;
+    box-shadow: 
+    -2px -2px 8px 0 rgba(255,255,255,.8),
+    -2px -2px 12px 0 rgba(255,255,255,0.5),
+    inset 2px 2px 4px rgba(255,255,255,.1),
+    2px 2px 8px rgba(0,0,0,.15);
+    padding: 1em;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.lastBlock {
+    box-shadow: 
+    -2px -2px 8px 0 rgba(255,255,255,.8),
+    -2px -2px 12px 0 rgba(255,255,255,0.5),
+    inset 2px 2px 4px rgba(255,255,255,.1),
+    2px 2px 8px rgba(0,0,0,.15);
+    padding: 1em;
+    margin: 1em;
+}
+div.animationContainer{
+    height: 100px;
+    width: 100px;
+    margin:1em;
+    justify-self: center;
+    align-self: center;
+    
+    
+}
+
+
+button.mineButton{
+    margin-top: 1em;
+    margin-bottom: 1.7em;
+    padding: 1em 0;
+    box-shadow: 
+    -2px -2px 8px 0 rgba(255,255,255,.8),
+    -2px -2px 12px 0 rgba(255,255,255,0.5),
+    inset 2px 2px 4px rgba(255,255,255,.1),
+    2px 2px 8px rgba(0,0,0,.15);
+    background-color: #EEE;
+    border-radius: .5em;
+    border-style: none;
+    font-size: 22px;
+    width: 80%;
+    align-self: center;
+
+}
+
+.mineButton:hover{
+   
+  box-shadow: 
+    inset -2px -2px 8px 0 rgba(255,255,255,.8),
+    inset -2px -2px 12px 0 rgba(255,255,255,0.5),
+    inset 2px 2px 4px rgba(255,255,255,.1),
+    inset 2px 2px 8px rgba(0,0,0,.15);   
+}
+.mineButton:hover span {
+    display: inline-block;
+    transform: scale(0.98);
+
+
+}
+
