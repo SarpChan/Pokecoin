@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Pokecoin Blockchainfarmer Projekt für ein Web-Engineering Modul.
 
+Die WebApp erlaubt das Sammeln von Pokemon Karten. Kartenpacks können für pokecoins gekauft werden. Diese müssen per Blockchain clientside gethreaded gefarmt werden.
+
 Demo: https://drive.google.com/file/d/1kfIIJI-Cka-RUTMcsjhe5Jm5pWZLsrx8/view?usp=sharing
 
 Der Blockchainfarmer läuft auf einem Worker in einem separatem Thread, damit die GUI nicht einfriert. 
